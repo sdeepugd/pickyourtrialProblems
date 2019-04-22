@@ -1,4 +1,3 @@
-#! /usr/bin/python
 import sys
 
 def ispalindrome(str):
@@ -8,9 +7,9 @@ def ispalindrome(str):
             return False
     return True
 
-if __name__=="__main__":
+def countPalindromes(s)
     palin_set=set()
-    strng=sys.argv[1]
+    strng=s
     
     def genpalin(start,stop,n):
         if start>stop or stop is n or start is n:
@@ -29,4 +28,4 @@ if __name__=="__main__":
         substrng=strng[start:stop+1]
         if ispalindrome(substrng):
             count=count+1
-    print count
+    return count
