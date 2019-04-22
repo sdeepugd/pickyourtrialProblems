@@ -17,3 +17,12 @@ The program generates indices with the following rule:
     
  
     
+Mud Walls:
+The max height of the mud walls can be found by applying a formulae:
+let us assume the difference between the two sticks as pos_diff
+and the difference of the height as diff
+then the formulae is 
+if the pos_diff > diff
+then find the median from the difference of (pos_diff and diff) and add it to the max of the two stick heights
+if the pos_diff <= diff
+then find the median of diff alone and add it to the min of the stick heights.
